@@ -9,16 +9,21 @@
   <h1>Currency Converter</h1>
   <form id="converterForm">
     <input type="number" id="amount" placeholder="Amount" required>
+    
+    <!-- From Currency Dropdown -->
     <select id="fromCurrency" required>
       <option value="USD">USD</option>
-      <option value="EUR">EUR</option>
-      <!-- Add more options if needed -->
+      <option value="INR">INR</option>
+      <!-- Add more currencies if needed -->
     </select>
+    
+    <!-- To Currency Dropdown -->
     <select id="toCurrency" required>
       <option value="INR">INR</option>
       <option value="USD">USD</option>
-      <!-- Add more options if needed -->
+      <!-- Add more currencies if needed -->
     </select>
+    
     <button type="submit">Convert</button>
   </form>
 
